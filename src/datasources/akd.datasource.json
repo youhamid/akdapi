@@ -2,8 +2,6 @@
   "name": "akd",
   "connector": "mongodb",
   "host": "cluster0-shard-00-00-ffiim.gcp.mongodb.net",
-  "port": 27017,
-  "user": "akd",
-  "password": "akd",
+  "url" : "mongodb://akd:akd@cluster0-shard-00-00-ffiim.gcp.mongodb.net:27017,cluster0-shard-00-01-ffiim.gcp.mongodb.net:27017,cluster0-shard-00-02-ffiim.gcp.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true",
   "database": "akd"
 }

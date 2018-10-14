@@ -20,6 +20,11 @@ export class Livre extends Entity {
   })
   description?: string;
 
+  @property({
+    type: 'string',
+  })
+  commentaire?: string;
+
   constructor(data?: Partial<Livre>) {
     super(data);
   }
