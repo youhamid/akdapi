@@ -1,0 +1,9 @@
+{
+  "name": "akd",
+  "connector": "mongodb",
+  "host": "cluster0-shard-00-00-ffiim.gcp.mongodb.net",
+  "port": 27017,
+  "user": "akd",
+  "password": "akd",
+  "database": "akd"
+}
